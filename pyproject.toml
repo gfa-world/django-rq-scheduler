@@ -30,9 +30,9 @@ classifiers = [
 homepage = "https://github.com/cunla/django-rqscheduler"
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = "^3.7"
 django = [
-    {version="^3.2", markers="python_version == '3.9'"},
+    {version="^3.2", markers="python_version == '3.7'"},
     {version="^4.0", markers="python_version >= '3.10'"}
 ]
 django-model-utils = "^4.2.0"
